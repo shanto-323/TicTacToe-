@@ -147,7 +147,6 @@ fun GameModel(modifier: Modifier = Modifier, viewModel: GameModelViewModel = hil
             if (gameState[it] == 'O'.toString()) {
               Zero(color = MaterialTheme.colorScheme.secondary)
             }
-
           }
         }
       }
